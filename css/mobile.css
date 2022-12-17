@@ -1,0 +1,132 @@
+@media screen and (max-width: 600px) {
+  * {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+  }
+
+  /* ĐỊNH DẠNG NAVBAR */
+  .nav-bar {
+    height: 230px !important;
+  }
+
+  .container-nav {
+    display: flex !important;
+
+    font-size: 18px !important;
+
+    flex-direction: column-reverse !important;
+  }
+  .nav-name {
+    display: none;
+  }
+
+  .avtimg {
+    display: none;
+  }
+  .nav-name-job {
+    color: #adb5bd;
+  }
+
+  nav a {
+    display: flex;
+    flex-direction: row-reverse;
+    border: none !important;
+  }
+  .adiploma,
+  .ainfo {
+    border-right: none;
+  }
+
+  .icon,
+  .ic {
+    color: #199cdb !important;
+  }
+
+  /* ĐỊNH DẠNG PHẦN THÔNG TIN CÁ NHÂN */
+
+  #target {
+    padding-left: 1%;
+  }
+  #personal-info {
+    padding-left: 1%;
+  }
+
+  li {
+    list-style: none;
+  }
+  .section-title1,
+  .section-title2 {
+    font-size: 20px !important;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* ĐỊNH DẠNG PHẦN CHỨNG CHỈ */
+
+  #certificate .container .diploma-item {
+    border: none;
+
+    border-bottom: 1px solid #fa5252;
+  }
+
+  .Javascriptmb {
+    grid-column: 1/-1 !important;
+    margin-right: -35px;
+  }
+  .database {
+    border-bottom: none !important;
+  }
+
+  /* ĐỊNH DẠNG PHẦN DỰ ÁN */
+  .section-title3 {
+    padding-top: 50px !important;
+    padding-left: 50px !important;
+  }
+  .project-img {
+    width: 381px !important;
+    height: 368px !important;
+  }
+
+  .box {
+    padding-top: 10px;
+  }
+
+  .title {
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid #d0d0d0;
+    border-left: none;
+    border-right: none;
+  }
+  .project-content h4 {
+    padding: 15px;
+    font-weight: unset;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  tr {
+    border: 1px solid #d0d0d0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .head-line {
+    padding: 0px 2px 30px 20px;
+  }
+  .cn {
+    padding-bottom: 40px;
+  }
+  .td {
+    width: 100px;
+    height: 70px;
+  }
+  /* ĐỊNH DẠNG PHẦN THÔNG TIN LIÊN HỆ */
+
+  .ftlink {
+    font-size: 16px !important;
+  }
+}
